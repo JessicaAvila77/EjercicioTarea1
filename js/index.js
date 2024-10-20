@@ -14,7 +14,7 @@ function calcular()
         warning('La base debe contener un valor');
     }else if(strA<=0){
         warning('La altura no puede ser cero o negativa');
-    }if(strB<=0){
+    }else if(strB<=0){
         warning('La base no puede ser cero o negativa');
     }else{
 
